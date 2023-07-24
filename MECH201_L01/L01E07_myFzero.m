@@ -1,4 +1,4 @@
-function L1E7_myFzero
+function L01E07_myFzero
 
 clc; clear all; clear hidden; close all
 

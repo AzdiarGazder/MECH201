@@ -1,4 +1,4 @@
-function L1E8_linearAlgEqN
+function L01E08_linearAlgEqN
 
 clc; clear all; clear hidden; close all
 

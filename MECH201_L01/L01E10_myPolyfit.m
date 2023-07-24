@@ -1,4 +1,4 @@
-function L1E10_myPolyfit
+function L01E10_myPolyfit
 
 clc; clear all; clear hidden; close all
 

@@ -1,4 +1,4 @@
-function L1E5_truncation
+function L01E05_truncation
 
 clc; clear all; clear hidden; close all
 

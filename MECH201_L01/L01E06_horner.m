@@ -1,4 +1,4 @@
-function L1E6_horner
+function L01E06_horner
 
 clc; clear all; clear hidden; close all
 

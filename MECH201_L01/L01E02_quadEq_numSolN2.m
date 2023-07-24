@@ -1,4 +1,4 @@
-function L1E2_quadEq_numSolN2
+function L01E02_quadEq_numSolN2
 
 clc; clear all; clear hidden; close all
 

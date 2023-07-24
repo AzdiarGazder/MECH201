@@ -1,4 +1,4 @@
-function L1E4_eulerMethod
+function L01E04_eulerMethod
 
 clc; clear all; clear hidden; close all
 
