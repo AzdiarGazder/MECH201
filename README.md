@@ -8,7 +8,7 @@ The objective of this repository is to teach the construction of mathematical mo
 ## How to use the scripts in the [**MECH201 repository**](https://github.com/AzdiarGazder/MECH201)
 Visitors to this webpage may download and implement the entire library or individual scripts related to specific tools. Please report any issues with the scripts or webpage to the author using the discussion section or directly via email (for a valid email address, please replace the word "dots" with periods).
 
-The recommended method, which helps keep all mtexTools functions and scripts up-to-date, is as follows: 
+The recommended method, which helps keep all MECH201 scripts up-to-date, is as follows: 
 1. Download and install the [**GitHub Desktop**](https://desktop.github.com/).
 2. Within the GitHub Desktop, click on **Files -> Clone a repository -> URL**.
 3. In the **"Repository URL or GitHub username and repository"** dialog, type in "https://github.com/AzdiarGazder/MECH201" (without quotes).
