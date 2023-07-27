@@ -1,4 +1,4 @@
-function L01E05_truncationMethod
+function L01E05_truncationTypes
 %% Function description:
 %
 %
