@@ -1,5 +1,18 @@
 function L01E06_horner
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+%
+%% Acknowledgements:
+% Script modified from:
+% From https://au.mathworks.com/matlabcentral/answers/562466-plotting-a-function-horner-schema
+% 
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 % Define a quartic (4th degree) polynomial equation
@@ -16,9 +29,7 @@ disp(' ')
 disp('------')
 
 tic
-%% Write a custom Horner script
-% %
-% % From https://au.mathworks.com/matlabcentral/answers/562466-plotting-a-function-horner-schema
+%% Using a custom Horner script
 % %
 % % General Horner representation:
 % % If a polynomial is represented by coefficients "a" such that

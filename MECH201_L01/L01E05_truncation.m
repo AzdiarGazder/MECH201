@@ -1,5 +1,14 @@
 function L01E05_truncation
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+%
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 tic

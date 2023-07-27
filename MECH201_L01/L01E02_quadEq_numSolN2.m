@@ -1,5 +1,14 @@
 function L01E02_quadEq_numSolN2
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+% 
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 x = 1;

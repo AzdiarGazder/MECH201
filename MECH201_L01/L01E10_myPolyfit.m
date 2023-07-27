@@ -1,5 +1,14 @@
 function L01E10_myPolyfit
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+% 
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 tic
@@ -13,7 +22,7 @@ grid on;
 hold all;
 
 
-% Fit the curve
+% Fit the curve using MATLAB built-in functions
 P = polyfit(x,y,2);
 
 % Plot the fitted curve

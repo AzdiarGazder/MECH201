@@ -1,6 +1,12 @@
 function L01E03_mathModel
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+%
+%%
 
-clc; clear all; clear hidden; close all
 
 % % Fd = (m1 + m2)*g = m*g       = gravitational force
 % % Fu = -c*v                    = drag force
@@ -16,6 +22,9 @@ clc; clear all; clear hidden; close all
 % % dv/dt = (m*g - c*v)/m 
 % % dv/dt = g - ((c/m)*v)
 
+
+%%
+clc; clear all; clear hidden; close all
 tic
 disp('-------')
 % % Define the differential equation describing the equation of motion

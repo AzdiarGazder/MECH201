@@ -1,10 +1,18 @@
 function L01E07_myFzero
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+% 
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 tic
-%% Find the roots of a non-linear function
-
+% Find the roots of a non-linear function
 % % The root of an equation is defined as the position where f(x) 
 % % changes sign.
 

@@ -1,5 +1,18 @@
 function L01E04_eulerMethod
+%% Function description:
+%
+%
+%% Author:
+% Dr. Azdiar Gazder, 2023, azdiaratuowdotedudotau
+%
+%% Acknowledgements:
+% Script modified from:
+% From https://au.mathworks.com/help/symbolic/modeling-the-velocity-of-a-paratrooper.html
+% 
+%%
 
+
+%%
 clc; clear all; clear hidden; close all
 
 g = 9.81;    % in m/(s^2)      = acceleration due to gravity
@@ -51,8 +64,6 @@ velocity = arrayfun(@(x) str2double(x), string(T.v));
 
 
 %% ---
-% % From https://au.mathworks.com/help/symbolic/modeling-the-velocity-of-a-paratrooper.html
-% % And L1E3_mathModel.m
 % % Define the differential equation describing the equation of motion
 syms v(t) g c m;
 eq = diff(v(t),t)  == g - ((c/m)*v);
