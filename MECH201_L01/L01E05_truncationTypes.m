@@ -18,7 +18,7 @@ x = sqrt(9.01) - 3;
 disp('------')
 format short
 disp('format short   = Scaled fixed point format with 5 digits.')
-disp('format         = Default. Same as SHORT.')
+disp('format default = Same as SHORT.')
 % pi
 x
 
