@@ -1,4 +1,4 @@
-function L01E06_horner
+function L01E06_hornerMethod
 %% Function description:
 %
 %
