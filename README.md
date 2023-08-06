@@ -13,9 +13,7 @@ The recommended method, which helps keep all MECH201 scripts up-to-date, is as f
 2. Within the GitHub Desktop, click on **Files -> Clone a repository -> URL**.
 3. In the **"Repository URL or GitHub username and repository"** dialog, type in "https://github.com/AzdiarGazder/MECH201" (without quotes).
 4. In the **"Local path"** dialog, specify a local subfolder within your Matlab work path (usually "C:\Users\userName\Documents\MATLAB\GitHub" (without quotes)).
-5. Click **"Clone"**. All files in this repository will then be available within the local subfolder "C:\Users\userName\Documents\MATLAB\GitHub\MECH201".
-6. Add the local subfolder in pt. 5 (and its subfolders) to your Matlab work path. 
-7. Restart Matlab. All functions in the MECH201 repository will now be available for use.
-8. Remember to return to the GitHub Desktop on a weekly basis and click on **"Fetch origin"** to pull (update) the latest lecture and/or any edits/changes from the repository to your local subfolder. 
+5. Click **"Clone"**. All files in this repository will now be available within the local subfolder "C:\Users\userName\Documents\MATLAB\GitHub\MECH201".
+6. Remember to return to the GitHub Desktop on a weekly basis and click on **"Fetch origin"** to pull (or update) the latest lecture and/or any edits/changes from the repository to your local subfolder. 
 
 ---
