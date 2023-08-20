@@ -58,16 +58,12 @@ a0 = XX(1); a1 = XX(2); a2 = XX(3);
 toc
 disp('___________________________________________________________________')
 
-
 disp('------')
 display('Least Squares Regression equation')
 display(['a2 = ', num2str(a2)]);
 display(['a1 = ', num2str(a1)]);
 display(['a0 = ', num2str(a0)]);
 display(['equation: y = ', num2str(a0),' + (', num2str(a1),' * x) + (', num2str(a2),' * x^2) ']);
-
-% Substituting values into the best-fit equation
-Yreg = a0 + a1.*X + a2.*(X.^2);
 
 
 % Correlation coefficient / (coefficient of determination):
@@ -87,6 +83,8 @@ display(['r   = ', num2str(r)]);
 display(['r^2 = ', num2str(r2)]);
 disp('------')
 
+% Substituting values into the best-fit equation
+Yreg = a0 + a1.*X + a2.*(X.^2);
 
 figure
 plot(X,Y,'o-r','linewidth',2)
