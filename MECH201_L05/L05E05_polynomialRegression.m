@@ -87,4 +87,15 @@ display(['r   = ', num2str(r)]);
 display(['r^2 = ', num2str(r2)]);
 disp('------')
 
+
+figure
+plot(X,Y,'o-r','linewidth',2)
+hold all;
+plot(X,Yreg,'*-b','linewidth',2)
+xlabel('X')
+ylabel('Y')
+legend({'Experimental data', 'LSqR fit'},...
+    'Location','southeast')
+hold off;
+
 end
