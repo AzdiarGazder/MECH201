@@ -42,7 +42,6 @@ disp(vpa(simplify(sumEq)))
 disp('___________________________________________________________________')
 
 
-
 figure
 plot(X,Y,'o-r','lineWidth',2); % data points
 hold all;
