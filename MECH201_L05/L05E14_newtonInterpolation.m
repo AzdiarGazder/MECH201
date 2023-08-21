@@ -19,8 +19,10 @@ clc; clear all; clear hidden; close all
 x = [1, 4, 6]
 fx = log(x)
 
+
 xx = x;
 yy1 = fx;
+
 
 disp('___________________________________________________________________')
 n = length(fx);
@@ -63,9 +65,10 @@ disp(pstr)
 
 disp('----')
 disp('...or in MATLAB symbolic format as:')
+xx2 = min(x):0.1:max(x);
 syms x f(x);
 f(x) = simplify(str2sym(pstr))
-yy2 = double(f(xx));
+yy2 = double(f(xx2));
 
 disp('----')
 disp(['...such that for x = 2 ; f(x) = ',num2str(double(f(2)))])
@@ -76,7 +79,7 @@ disp('___________________________________________________________________')
 figure
 plot(xx,yy1,'o-r','lineWidth',2); % experimental data points
 hold all;
-plot(xx,yy2,'-k','lineWidth',2); % fitted data points
+plot(xx2,yy2,'-k','lineWidth',2); % fitted data points
 legend('f(x)','Newton interpolation','Location','southeast');
 xlabel('X');
 ylabel('Y = f(X)');
