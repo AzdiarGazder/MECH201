@@ -25,7 +25,8 @@ xMax = 0.8; % define the uppper bound
 % Calculate the area under the curve via integration
 integratedArea = integral(@(x)f(x),xMin,xMax);
 
-for n = 3:99                      % define a number of points to plot
+nMax = 99;
+for n = 3:nMax                      % define a number of points to plot
     x = linspace(xMin,xMax,n+1);  % define **EQUALLY** spaced x-values
                                   % between the bounds
     stepSize = (xMax - xMin) / n; % the width is the same for **EQUALLY**
@@ -44,9 +45,9 @@ for n = 3:99                      % define a number of points to plot
 end
 
 figure
-plot(3:99,err_13Int,'o-r','lineWidth',1.5);
+plot(3:nMax,err_13Int,'o-r','lineWidth',1.5);
 hold all
-plot(3:99,err_38Int,'s-b','lineWidth',1.5)
+plot(3:nMax,err_38Int,'s-b','lineWidth',1.5)
 legend({'1/3rd rule','3/8th rule'},'Location','northeast');
 xlabel('Number of uniformly distributed points between xMin = 0 and xMax = 0.8');
 ylabel('Error (%)');
