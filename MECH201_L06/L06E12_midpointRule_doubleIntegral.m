@@ -23,8 +23,8 @@ xMax = 8; % define the uppper bound
 yMin = 0;   % define the lower bound
 yMax = 6; % define the uppper bound
 
-nX = 100;                       % define a number of points to plot
-nY = 100;
+nX = 3;                       % define a number of points to plot
+nY = 3;
 
 x = linspace(xMin,xMax,nX+1);   % define **EQUALLY** spaced x & y -values
                                 % between the bounds
