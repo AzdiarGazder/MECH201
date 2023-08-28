@@ -26,7 +26,7 @@ xMax = 0.8; % define the uppper bound
 integratedArea = integral(@(x)f(x),xMin,xMax);
 
 nMax = 99;
-for n = 3:nMax                      % define a number of points to plot
+for n = 3:nMax                    % define a number of points to plot
     x = linspace(xMin,xMax,n+1);  % define **EQUALLY** spaced x-values
                                   % between the bounds
     stepSize = (xMax - xMin) / n; % the width is the same for **EQUALLY**
