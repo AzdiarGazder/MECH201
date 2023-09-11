@@ -59,8 +59,8 @@ plot(X,Y,'o-r','lineWidth',2); % data points
 hold all;
 xFine = min(X): 0.1: max(X); % defines finer steps between points for the equation of best fit
 plot(xFine,f(xFine),'-k','lineWidth',2);
-% legend('f(x)','Polyfit','Location','northeast');
-legend('f(x)','Polyfit','Location','southeast');
+% legend('f''(x)','Polyfit','Location','northeast');
+legend('f''(x)','Polyfit','Location','southeast');
 xlabel('X');
 ylabel('Y = f(X)');
 %%
