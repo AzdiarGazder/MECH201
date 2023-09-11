@@ -1,4 +1,4 @@
-% function L07E05_richardsonExtrapolation
+function L07E05_richardsonExtrapolation
 %% Function description:
 %
 %
@@ -142,4 +142,4 @@ disp(['df / dx via Richardson''s extrapolation                       = ',num2str
 disp(['Error between analytical and Richardson''s extrapolation (%)  = ',num2str(err_RE)]);
 disp('___________________________________________________________________')
 
-% end
+end
