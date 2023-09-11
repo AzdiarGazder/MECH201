@@ -30,6 +30,7 @@ N = length(X);
 L = zeros(N,N);
 
 % Calculate the polynomial weights for each order
+% % METHOD 1
 for ii = 1:N
     % the polynomial whose roots are all the values of X except this one
     pp = poly(X((1:N) ~= ii));
@@ -37,7 +38,6 @@ for ii = 1:N
     % at others)
     L(ii,:) = pp ./ polyval(pp, X(ii));
 end
-
 % Each row gives the polynomial that is 1 at the corresponding X
 % point and zero everywhere else, so weighting each row by the
 % desired row and summing (in this case the polycoeffs) gives
