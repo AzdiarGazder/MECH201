@@ -20,8 +20,9 @@ syms x f
 f(x) = -0.1.*x.^4 -0.15.*x.^3 -0.5.*x.^2 -0.25.*x +1.2
 
 % step sizes
-% stepSize = 0.5;
-stepSize = 0.25;
+stepSize = 0.5;
+% stepSize = 0.25;
+% stepSize = 0.125;
 
 % x-values for which derivatives require calculation
 x = linspace(0,1,(1/stepSize)+1);
