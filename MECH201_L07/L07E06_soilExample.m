@@ -110,8 +110,8 @@ hold all;
 xLagrange = min(X): 0.1: max(X); % defines finer steps between points for the equation of best fit
 plot(xLagrange,f(xLagrange),'-k','lineWidth',2);
 legend('f(x)','Lagrangian interpolation','Location','northeast');
-xlabel('X');
-ylabel('Y = f(X)');
+xlabel('Soil depth (X in cm)');
+ylabel('Temperature (Y = f''(X) in °C)');
 %%
 
 end
