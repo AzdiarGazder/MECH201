@@ -13,8 +13,7 @@ clc; clear all; clear hidden; close all
 
 syms f(x,y)
 f(x,y) = -2.*x.^3 + 12.*x.^2 - 20.*x + 8.5 + 0.3.*y; % define a function
-% f(x,y) = 10.*x + y + x.*y; 
-
+% f(x,y) = 4.*exp(0.8.*x) - 0.5.*y; 
 
 xMin = 0; % define the lower bound
 xMax = 4; % define the uppper bound
@@ -40,6 +39,7 @@ for ii = 1:length(stepSize)
 
     Y = zeros(size(X));          % pre-define an empty array of Y-values
     Y(1) = 1;                    % starting value of Y @ xMin (known)
+%     Y(1) = 2;                    % starting value of Y @ xMin (known)
 
     %% Loop for the Euler method
     tic

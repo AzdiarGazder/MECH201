@@ -8,7 +8,7 @@ function L08E11_higherOrderExample2_rungeKutta_heunMethod_routine2
 %%
 
 
-% % Given the Van der Pol equation:
+% % Given the van der Pol equation:
 % % (d^2y / dt^2) - (1 - y^2)*(dy / dt) + y = 0                 --- Eq (1)
 % % 
 % % Rename the variables as follows:

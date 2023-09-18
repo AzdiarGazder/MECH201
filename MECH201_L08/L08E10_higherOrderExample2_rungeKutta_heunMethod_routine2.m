@@ -9,18 +9,18 @@ function L08E10_higherOrderExample2_rungeKutta_heunMethod_routine2
 
 
 % % Given an equation:
-% % (d^2y / dt^2) - (1 - y^2)*(dy / dt) + y = 0                 --- Eq (1)
+% % (d^2y / dx^2) + 0.5*(dy / dx) + 7*y = 0                     --- Eq (1)
 % % 
 % % Rename the variables as follows:
 % % dy / dx = z                                                 --- Eq (2)
 % % 
 % % then for the first term in Eq (1)
-% % (d^2y / dt^2) = differential of dy / dt
-% % Since dy / dt = z (from above)
-% % (d^2y / dt^2) = dz / dt                                     --- Eq (3)
+% % (d^2y / dx^2) = differential of dy / dx
+% % Since dy / dx = z (from above)
+% % (d^2y / dx^2) = dz / dx                                     --- Eq (3)
 % %
 % % Substituting Eqs (2) and (3) into Eq (1)
-% % (dz / dt) + 0.5*z + 7*y = 0
+% % (dz / dx) + 0.5*z + 7*y = 0
 % % or,
 % % dz / dx = -0.5*z - 7*y
 % % which is a 1st order ODE 
